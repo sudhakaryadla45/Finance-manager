@@ -1,0 +1,53 @@
+{
+  "name": "financemanager",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.0.0",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@angular/router": "^18.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.0.1",
+    "@angular/cli": "^18.0.1",
+    "@angular/compiler-cli": "^18.0.0",
+    "@syncfusion/ej2-angular-buttons": "^25.2.7",
+    "@syncfusion/ej2-angular-calendars": "^25.2.5",
+    "@syncfusion/ej2-angular-charts": "^25.2.6",
+    "@syncfusion/ej2-angular-dropdowns": "^25.2.6",
+    "@syncfusion/ej2-angular-grids": "^25.2.7",
+    "@syncfusion/ej2-angular-inputs": "^25.2.6",
+    "@syncfusion/ej2-angular-navigations": "^25.2.6",
+    "@syncfusion/ej2-angular-notifications": "^25.2.3",
+    "@syncfusion/ej2-angular-popups": "^25.2.7",
+    "@syncfusion/ej2-angular-splitbuttons": "^25.2.4",
+    "@syncfusion/ej2-data": "^26.1.35",
+    "@types/jasmine": "~5.1.0",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.11.1",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "~5.4.2"
+  }
+}

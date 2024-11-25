@@ -1,0 +1,43 @@
+<div class="container mx-auto h-screen flex justify-center items-center">
+  <div class="card w-96 bg-primary text-primary-content">
+    <div class="card-body">
+      <h2 class="card-title">Registration</h2>
+      <form [formGroup]="_regForm" (ngSubmit)="proceedRegister()">
+        <label class="input input-bordered flex items-center mb-2">
+          <input
+            type="text"
+            class="grow text-white"
+            placeholder="Email"
+            formControlName="username"
+          />
+        </label>
+        <label class="input input-bordered flex items-center mb-2">
+          <input
+            type="password"
+            class="grow text-white"
+            value="password"
+            placeholder="Password"
+            formControlName="password"
+          />
+        </label>
+        <label class="input input-bordered flex items-center mb-2">
+          <input
+            type="password"
+            class="grow text-white"
+            value="password"
+            placeholder="Password"
+            formControlName="confirmPassword"
+          />
+        </label>
+        <button
+          type="submit"
+          [disabled]="!checkValidity()"
+          [attr.data-magicNumber]="magicNumber"
+          class="btn btn-sm btn-info"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

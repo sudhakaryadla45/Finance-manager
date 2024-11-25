@@ -1,0 +1,50 @@
+<ejs-grid
+  [dataSource]="data"
+  [allowPaging]="true"
+  [allowSorting]="true"
+  [pageSettings]="pageSettings"
+>
+  <e-columns>
+    <e-column
+      field="id"
+      headerText="ID"
+      textAlign="Center"
+      [visible]="false"
+    ></e-column>
+    <e-column field="cause" headerText="Cause"></e-column>
+    <e-column
+      field="amount"
+      headerText="Amount"
+      textAlign="Center"
+      format="C2"
+    ></e-column>
+    <e-column
+      field="quantity"
+      headerText="Quantity"
+      textAlign="Center"
+      format="C2"
+    ></e-column>
+    <e-column
+      field="unitPrice"
+      headerText="UnitPrice"
+      textAlign="Center"
+      format="C2"
+    ></e-column>
+    <e-column
+      field="createdBy"
+      headerText="Created By"
+      [visible]="false"
+    ></e-column>
+    <e-column
+      field="expenseDate"
+      headerText="Expense Date"
+      textAlign="center"
+      format="yMd"
+    ></e-column>
+    <e-column
+      field="expenseCategoryId"
+      headerText="Category ID"
+      textAlign="center"
+    ></e-column>
+  </e-columns>
+</ejs-grid>
